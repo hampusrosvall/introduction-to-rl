@@ -21,7 +21,6 @@ class Grid: # Environment
     # actions should be a dict of: (i, j): A (row, col): list of possible actions
     self.rewards = rewards
     self.actions = actions
-
   def set_state(self, s):
     self.i = s[0]
     self.j = s[1]
